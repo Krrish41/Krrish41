@@ -1,0 +1,48 @@
+name: Generate Snake Animation
+on:
+  schedule:
+    - cron: '0 */12 * * *'  # Every 12 hours
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Generate snake animation (light theme)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Krrish41
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Verify SVGs generated
+        run: |
+          ls -la dist/
+          file dist/github-contribution-grid-snake.svg
+          file dist/github-contribution-grid-snake-dark.svg
+
+      - name: Switch to output branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B output
+
+      - name: Copy snake SVGs to root
+        run: |
+          cp dist/github-contribution-grid-snake.svg .
+          cp dist/github-contribution-grid-snake-dark.svg .
+
+      - name: Commit and push snake animation
+        run: |
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          git diff --staged --quiet || git commit -m "chore: update snake animation [skip ci]"
+          git push origin output --force
