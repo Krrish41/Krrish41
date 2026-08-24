@@ -72,7 +72,7 @@ What I Do:
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://streak-stats.demolab.com?user=Krrish41&theme=tokyonight&hide_border=true&border_radius=5&stroke=a29bfe&ring=fd79a8&fire=fd79a8&currStreakLabel=a29bfe&sideNums=e0e0e0&sideLabels=e0e0e0&dates=e0e0e0" alt="Streak Stats" width="100%" />
+      <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Krrish41&theme=tokyonight&hide_border=true&border_radius=5&stroke=a29bfe&ring=fd79a8&fire=fd79a8&currStreakLabel=a29bfe&sideNums=e0e0e0&sideLabels=e0e0e0&dates=e0e0e0" alt="Streak Stats" width="100%" />
     </td>
   </tr>
 </table>
