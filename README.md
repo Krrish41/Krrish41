@@ -153,7 +153,7 @@ Aug 2023 – May 2027
 
 <p align="left">
   <a href="mailto:krrish4173@gmail.com" style="text-decoration: none; margin-right: 16px;"><img src="https://raw.githubusercontent.com/Krrish41/Krrish41/main/assets/badge-gmail.svg?v=8" alt="Gmail" /></a>
-  <a href="https://linkedin.com/in/krrish-ranjan-826801345" style="text-decoration: none; margin-right: 16px;"><img src="https://raw.githubusercontent.com/Krrish41/Krrish41/main/assets/badge-linkedin.svg" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/krrish-ranjan" style="text-decoration: none; margin-right: 16px;"><img src="https://raw.githubusercontent.com/Krrish41/Krrish41/main/assets/badge-linkedin.svg" alt="LinkedIn" /></a>
   <a href="https://leetcode.com/u/krrish41/" style="text-decoration: none;"><img src="https://raw.githubusercontent.com/Krrish41/Krrish41/main/assets/badge-leetcode.svg" alt="LeetCode" /></a>
 </p>
 
