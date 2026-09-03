@@ -22,7 +22,7 @@ focus:
 internships: 3
 hackathons:
   - "Adobe India Hackathon 2025 - Round 3"
-leadership: "Events Head, Cycling Club VIT (300+ riders)"
+leadership: "Vice Chairperson, Cycling Club VIT (300+ riders)"
 ```
 
 What I Do:
@@ -137,7 +137,7 @@ What I Do:
 | Adobe India Hackathon - Round 3 | Adobe | 2025 |
 | Generative AI using IBM watsonx | IBM | 2025 |
 | Full Stack Web Development | Unified Mentor | 2025 |
-| Events Head - Cycling Club | VIT | 2025 |
+| Vice Chairperson - Cycling Club | VIT | 2025 |
 
 ---
 
